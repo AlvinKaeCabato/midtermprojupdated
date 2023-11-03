@@ -5,10 +5,10 @@
     <classes>
       <class name="midtermProjMain.Main">
         <methods>
-          <include name="enterCart"/>
+          <include name="scrollAllDown"/>
           <include name="closeReport"/>
-          <include name="tearDown"/>
           <include name="returnToMainMenu"/>
+          <include name="tearDown"/>
           <include name="startServerwithApp"/>
           <include name="reconfigure"/>
           <include name="configReports"/>

@@ -22,6 +22,11 @@ import platformPackage.AndroidClass;
 
 public class Main extends AndroidInitialization {
 
+	/*
+	 * Temporary only 1 class, I am having errors with multiple classes in a suite
+	 * where passing the driver to the next class becomes null even though I restarted the
+	 * driver if detected as null.
+	 */
 
 	@Test(priority=1)
 	public void waitforSplash() throws InterruptedException {
@@ -135,23 +140,49 @@ public class Main extends AndroidInitialization {
 	}
 
 	@Test(priority=10)
-	public void scrollAllDown() {
-		boolean scrollMore;
-		int i = 0;
+	public void scrollAllDown() throws InterruptedException {
+		int x = 0;
+		boolean limit = false;
+		List<WebElement> elementList = driver.findElements(AppiumBy.id("com.androidsample.generalstore:id/productName"));
+	    for (WebElement st: elementList) {
+	        System.out.println(st.getText());
+	    }
+		
 		do {
-			scrollMore= (Boolean)((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
-			        "left", 100, "top", 100, "width", 200, "height", 2800,
+			((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
+			        "left", 100, "top", 100, "width", 200, "height", 2200,
 			        "direction", "down",
-			        "percent", 100.0
+			        "percent", 1.5
 			    ));
-		}while(scrollMore);
+		     
+		   
+			elementList.addAll(driver.findElements(AppiumBy.id("com.androidsample.generalstore:id/productName")));
+			System.out.println("---------------");
+			 for (WebElement ef: elementList) {
+			        System.out.println(ef.getText());
+			    }
+			x++;
+			if(x==10) {
+				limit = true;
+			}
+		}while(limit == false);
+		
+		System.out.println("FinalList");
+		 for (WebElement gh: elementList) {
+		        System.out.println(gh.getText());
+		    }
 		System.out.println("image count " +findBoxCount());
+		
+	}
+	
+	@Test(priority=11)
+	public void listAllBoxes() {
 		
 	}
 	
 	//Case 4 Temporary----------------------------------------
 	
-	@Test(priority=11)
+	@Test(priority=12)
 	public void enterItem() throws InterruptedException {
 
         driverCallClass.scrollToText("Converse All Star");
@@ -160,7 +191,7 @@ public class Main extends AndroidInitialization {
        
 	}
 	
-	@Test(priority=12)
+	@Test(priority=13)
 	public void enterCart() throws InterruptedException {
         driverCallClass.clickOnElement(driverCallClass.cart);
         TimeUnit.SECONDS.sleep(5);

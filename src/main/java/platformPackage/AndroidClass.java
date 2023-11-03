@@ -28,11 +28,9 @@ public class AndroidClass {
 		
 	}
 	
-	public void scrollToTextLastElementOf(String text) {
-			
-	}
 	public void androidScrollGesture() {
 		boolean canScrollMore;
+		int x = 1;
 		do {
 			canScrollMore=(Boolean)((JavascriptExecutor)driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
 					"left",100,
@@ -42,8 +40,25 @@ public class AndroidClass {
 					"direction","down",
 					"percent",50
 					));
+			System.out.println("Times: "+x);
+			x++;
 		}while(canScrollMore);
 	}
+	
+	public void androidScrollGestureUp() {
+		boolean canScrollMore;
+		do {
+			canScrollMore=(Boolean)((JavascriptExecutor)driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
+					"left",100,
+					"top",100,
+					"width",200,
+					"height",200,
+					"direction","up",
+					"percent",15
+					));
+		}while(canScrollMore);
+	}
+	
 	public void androidScrollGestureUntil(WebElement webe) {
 		boolean canScrollMore;
 		do {

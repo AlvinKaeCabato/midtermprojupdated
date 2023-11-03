@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>18/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 03 12:48:49 CST 2023</td>
+<td>Started on:</td><td>Fri Nov 03 16:44:47 CST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>62 seconds (62586 ms)</td>
+<tr><td>Total time:</td><td>70 seconds (70186 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,115 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='midtermProjMain.Main.scrollAllDown()'><b>scrollAllDown</b><br>Test class: midtermProjMain.Main</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: Cached elements &apos;By.id: com.androidsample.generalstore:id/productName&apos; do not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [5ba363a3-d7b5-42af-80e4-370715d338d5, getElementText {id=00000000-0000-00dc-ffff-ffff0000008f}]
+Capabilities {appium:app: C:\Users\COLLABERA.DIGITAL\..., appium:appPackage: com.androidsample.generalstore, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\COLLABERA.DIGITAL\..., autoGrantPermissions: true, automationName: UIAutomator2, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3040, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2858, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (5ba363a3-d7b5-42af-80e4-370715d338d5)] -&gt; id: com.androidsample.generalstore:id/productName]
+Session ID: 5ba363a3-d7b5-42af-80e4-370715d338d5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+	at midtermProjMain.Main.scrollAllDown(Main.java:162)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace371990011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace371990011'><pre>org.openqa.selenium.StaleElementReferenceException: Cached elements &apos;By.id: com.androidsample.generalstore:id/productName&apos; do not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [5ba363a3-d7b5-42af-80e4-370715d338d5, getElementText {id=00000000-0000-00dc-ffff-ffff0000008f}]
+Capabilities {appium:app: C:\Users\COLLABERA.DIGITAL\..., appium:appPackage: com.androidsample.generalstore, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\COLLABERA.DIGITAL\..., autoGrantPermissions: true, automationName: UIAutomator2, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3040, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2858, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (5ba363a3-d7b5-42af-80e4-370715d338d5)] -&gt; id: com.androidsample.generalstore:id/productName]
+Session ID: 5ba363a3-d7b5-42af-80e4-370715d338d5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+	at midtermProjMain.Main.scrollAllDown(Main.java:162)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,95 +185,95 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='midtermProjMain.Main.enterCart()'><b>enterCart</b><br>Test class: midtermProjMain.Main</td>
+<td title='midtermProjMain.Main.shopBegin3()'><b>shopBegin3</b><br>Test class: midtermProjMain.Main</td>
 <td></td>
-<td>5</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.enterName3()'><b>enterName3</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
+<td>3</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
 <tr>
 <td title='midtermProjMain.Main.selectCountry()'><b>selectCountry</b><br>Test class: midtermProjMain.Main</td>
 <td></td>
-<td>9</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.waitforSplash2()'><b>waitforSplash2</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>5</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.enterName()'><b>enterName</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.selectGender2()'><b>selectGender2</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.generalStoreInitial2()'><b>generalStoreInitial2</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.returnToMainMenuM()'><b>returnToMainMenuM</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.enterName2()'><b>enterName2</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.shopBegin()'><b>shopBegin</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>5</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
+<td>10</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
 <tr>
 <td title='midtermProjMain.Main.selectCountry2()'><b>selectCountry2</b><br>Test class: midtermProjMain.Main</td>
 <td></td>
-<td>13</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
+<td>17</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
 <tr>
 <td title='midtermProjMain.Main.waitforSplash()'><b>waitforSplash</b><br>Test class: midtermProjMain.Main</td>
 <td></td>
 <td>5</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.selectGender()'><b>selectGender</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.enterItem()'><b>enterItem</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
+<td>midtermProjMain.Main@408d971b</td></tr>
 <tr>
 <td title='midtermProjMain.Main.shopBegin2()'><b>shopBegin2</b><br>Test class: midtermProjMain.Main</td>
 <td></td>
 <td>1</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
-<tr>
-<td title='midtermProjMain.Main.scrollAllDown()'><b>scrollAllDown</b><br>Test class: midtermProjMain.Main</td>
-<td></td>
-<td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
+<td>midtermProjMain.Main@408d971b</td></tr>
 <tr>
 <td title='midtermProjMain.Main.generalStoreInitial()'><b>generalStoreInitial</b><br>Test class: midtermProjMain.Main</td>
 <td></td>
 <td>0</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
+<td>midtermProjMain.Main@408d971b</td></tr>
 <tr>
-<td title='midtermProjMain.Main.shopBegin3()'><b>shopBegin3</b><br>Test class: midtermProjMain.Main</td>
+<td title='midtermProjMain.Main.shopBegin()'><b>shopBegin</b><br>Test class: midtermProjMain.Main</td>
 <td></td>
-<td>3</td>
-<td>midtermProjMain.Main@557caf28</td></tr>
+<td>5</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.enterItem()'><b>enterItem</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.enterName3()'><b>enterName3</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.listAllBoxes()'><b>listAllBoxes</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.returnToMainMenuM()'><b>returnToMainMenuM</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.selectGender2()'><b>selectGender2</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.generalStoreInitial2()'><b>generalStoreInitial2</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.enterName2()'><b>enterName2</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.enterName()'><b>enterName</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.waitforSplash2()'><b>waitforSplash2</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>5</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.enterCart()'><b>enterCart</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>6</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
+<tr>
+<td title='midtermProjMain.Main.selectGender()'><b>selectGender</b><br>Test class: midtermProjMain.Main</td>
+<td></td>
+<td>0</td>
+<td>midtermProjMain.Main@408d971b</td></tr>
 </table><p>
 </body>
 </html>

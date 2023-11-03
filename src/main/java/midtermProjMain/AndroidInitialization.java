@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -23,10 +24,13 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import callPackage.DriverCallClass;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 
 public class AndroidInitialization {
 	AppiumDriverLocalService service;
@@ -137,10 +141,9 @@ public class AndroidInitialization {
 	public Integer findBoxCount() {
 		List<WebElement> elementList = driver.findElements(AppiumBy.id("com.androidsample.generalstore:id/productImage"));
 		Integer x = elementList.size();
-		
+
 		return x;
 	}
 
-	 
 	
 }

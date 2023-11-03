@@ -1,105 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+<testng-results ignored="0" total="19" passed="18" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-03T12:48:49 CST" name="Default suite" finished-at="2023-11-03T12:49:52 CST" duration-ms="62586">
+  <suite started-at="2023-11-03T16:44:47 CST" name="Default suite" finished-at="2023-11-03T16:45:57 CST" duration-ms="70186">
     <groups>
     </groups>
-    <test started-at="2023-11-03T12:48:49 CST" name="Default test" finished-at="2023-11-03T12:49:52 CST" duration-ms="62586">
+    <test started-at="2023-11-03T16:44:47 CST" name="Default test" finished-at="2023-11-03T16:45:57 CST" duration-ms="70186">
       <class name="midtermProjMain.Main">
-        <test-method is-config="true" signature="startServerwithApp()[pri:0, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:48:49 CST" name="startServerwithApp" finished-at="2023-11-03T12:48:56 CST" duration-ms="7196" status="PASS">
+        <test-method is-config="true" signature="startServerwithApp()[pri:0, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:44:47 CST" name="startServerwithApp" finished-at="2023-11-03T16:44:53 CST" duration-ms="5882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startServerwithApp -->
-        <test-method is-config="true" signature="configReports()[pri:0, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:48:56 CST" name="configReports" finished-at="2023-11-03T12:48:56 CST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="configReports()[pri:0, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:44:53 CST" name="configReports" finished-at="2023-11-03T16:44:53 CST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configReports -->
-        <test-method is-config="true" signature="reconfigure()[pri:0, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:48:56 CST" name="reconfigure" finished-at="2023-11-03T12:48:56 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="reconfigure()[pri:0, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:44:53 CST" name="reconfigure" finished-at="2023-11-03T16:44:53 CST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reconfigure -->
-        <test-method signature="waitforSplash()[pri:1, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:48:56 CST" name="waitforSplash" finished-at="2023-11-03T12:49:01 CST" duration-ms="5090" status="PASS">
+        <test-method signature="waitforSplash()[pri:1, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:44:53 CST" name="waitforSplash" finished-at="2023-11-03T16:44:58 CST" duration-ms="5080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitforSplash -->
-        <test-method signature="generalStoreInitial()[pri:2, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:01 CST" name="generalStoreInitial" finished-at="2023-11-03T12:49:02 CST" duration-ms="257" status="PASS">
+        <test-method signature="generalStoreInitial()[pri:2, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:44:58 CST" name="generalStoreInitial" finished-at="2023-11-03T16:44:58 CST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generalStoreInitial -->
-        <test-method signature="enterName()[pri:3, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:02 CST" name="enterName" finished-at="2023-11-03T12:49:02 CST" duration-ms="586" status="PASS">
+        <test-method signature="enterName()[pri:3, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:44:58 CST" name="enterName" finished-at="2023-11-03T16:44:59 CST" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterName -->
-        <test-method signature="selectCountry()[pri:3, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:02 CST" name="selectCountry" finished-at="2023-11-03T12:49:12 CST" duration-ms="9553" status="PASS">
+        <test-method signature="selectCountry()[pri:3, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:44:59 CST" name="selectCountry" finished-at="2023-11-03T16:45:10 CST" duration-ms="10668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCountry -->
-        <test-method signature="selectGender()[pri:3, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:12 CST" name="selectGender" finished-at="2023-11-03T12:49:12 CST" duration-ms="91" status="PASS">
+        <test-method signature="selectGender()[pri:3, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:10 CST" name="selectGender" finished-at="2023-11-03T16:45:10 CST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectGender -->
-        <test-method signature="shopBegin()[pri:4, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:12 CST" name="shopBegin" finished-at="2023-11-03T12:49:18 CST" duration-ms="5746" status="PASS">
+        <test-method signature="shopBegin()[pri:4, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:10 CST" name="shopBegin" finished-at="2023-11-03T16:45:15 CST" duration-ms="5738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopBegin -->
-        <test-method signature="returnToMainMenuM()[pri:5, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:18 CST" name="returnToMainMenuM" finished-at="2023-11-03T12:49:18 CST" duration-ms="709" status="PASS">
+        <test-method signature="returnToMainMenuM()[pri:5, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:15 CST" name="returnToMainMenuM" finished-at="2023-11-03T16:45:16 CST" duration-ms="686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnToMainMenuM -->
-        <test-method signature="waitforSplash2()[pri:6, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:18 CST" name="waitforSplash2" finished-at="2023-11-03T12:49:24 CST" duration-ms="5059" status="PASS">
+        <test-method signature="waitforSplash2()[pri:6, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:16 CST" name="waitforSplash2" finished-at="2023-11-03T16:45:21 CST" duration-ms="5047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitforSplash2 -->
-        <test-method signature="generalStoreInitial2()[pri:7, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:24 CST" name="generalStoreInitial2" finished-at="2023-11-03T12:49:24 CST" duration-ms="40" status="PASS">
+        <test-method signature="generalStoreInitial2()[pri:7, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:21 CST" name="generalStoreInitial2" finished-at="2023-11-03T16:45:21 CST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generalStoreInitial2 -->
-        <test-method signature="enterName2()[pri:8, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:24 CST" name="enterName2" finished-at="2023-11-03T12:49:24 CST" duration-ms="572" status="PASS">
+        <test-method signature="enterName2()[pri:8, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:21 CST" name="enterName2" finished-at="2023-11-03T16:45:22 CST" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterName2 -->
-        <test-method signature="selectCountry2()[pri:8, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:24 CST" name="selectCountry2" finished-at="2023-11-03T12:49:37 CST" duration-ms="13206" status="PASS">
+        <test-method signature="selectCountry2()[pri:8, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:22 CST" name="selectCountry2" finished-at="2023-11-03T16:45:40 CST" duration-ms="17919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCountry2 -->
-        <test-method signature="selectGender2()[pri:8, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:37 CST" name="selectGender2" finished-at="2023-11-03T12:49:37 CST" duration-ms="88" status="PASS">
+        <test-method signature="selectGender2()[pri:8, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:40 CST" name="selectGender2" finished-at="2023-11-03T16:45:40 CST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectGender2 -->
-        <test-method signature="shopBegin2()[pri:8, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:37 CST" name="shopBegin2" finished-at="2023-11-03T12:49:39 CST" duration-ms="1655" status="PASS">
+        <test-method signature="shopBegin2()[pri:8, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:40 CST" name="shopBegin2" finished-at="2023-11-03T16:45:41 CST" duration-ms="1660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopBegin2 -->
-        <test-method signature="enterName3()[pri:9, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:39 CST" name="enterName3" finished-at="2023-11-03T12:49:40 CST" duration-ms="568" status="PASS">
+        <test-method signature="enterName3()[pri:9, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:41 CST" name="enterName3" finished-at="2023-11-03T16:45:42 CST" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterName3 -->
-        <test-method signature="shopBegin3()[pri:9, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:40 CST" name="shopBegin3" finished-at="2023-11-03T12:49:44 CST" duration-ms="3946" status="PASS">
+        <test-method signature="shopBegin3()[pri:9, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:42 CST" name="shopBegin3" finished-at="2023-11-03T16:45:46 CST" duration-ms="3999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopBegin3 -->
-        <test-method signature="scrollAllDown()[pri:10, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:44 CST" name="scrollAllDown" finished-at="2023-11-03T12:49:44 CST" duration-ms="824" status="PASS">
+        <test-method signature="scrollAllDown()[pri:10, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:46 CST" name="scrollAllDown" finished-at="2023-11-03T16:45:49 CST" duration-ms="2992" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[Cached elements 'By.id: com.androidsample.generalstore:id/productName' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [5ba363a3-d7b5-42af-80e4-370715d338d5, getElementText {id=00000000-0000-00dc-ffff-ffff0000008f}]
+Capabilities {appium:app: C:\Users\COLLABERA.DIGITAL\..., appium:appPackage: com.androidsample.generalstore, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\COLLABERA.DIGITAL\..., autoGrantPermissions: true, automationName: UIAutomator2, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3040, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2858, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (5ba363a3-d7b5-42af-80e4-370715d338d5)] -> id: com.androidsample.generalstore:id/productName]
+Session ID: 5ba363a3-d7b5-42af-80e4-370715d338d5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.id: com.androidsample.generalstore:id/productName' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [5ba363a3-d7b5-42af-80e4-370715d338d5, getElementText {id=00000000-0000-00dc-ffff-ffff0000008f}]
+Capabilities {appium:app: C:\Users\COLLABERA.DIGITAL\..., appium:appPackage: com.androidsample.generalstore, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\COLLABERA.DIGITAL\..., autoGrantPermissions: true, automationName: UIAutomator2, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3040, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2858, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (5ba363a3-d7b5-42af-80e4-370715d338d5)] -> id: com.androidsample.generalstore:id/productName]
+Session ID: 5ba363a3-d7b5-42af-80e4-370715d338d5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+at midtermProjMain.Main.scrollAllDown(Main.java:162)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollAllDown -->
-        <test-method signature="enterItem()[pri:11, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:44 CST" name="enterItem" finished-at="2023-11-03T12:49:45 CST" duration-ms="701" status="PASS">
+        <test-method signature="listAllBoxes()[pri:11, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:49 CST" name="listAllBoxes" finished-at="2023-11-03T16:45:49 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listAllBoxes -->
+        <test-method signature="enterItem()[pri:12, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:49 CST" name="enterItem" finished-at="2023-11-03T16:45:50 CST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterItem -->
-        <test-method signature="enterCart()[pri:12, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:45 CST" name="enterCart" finished-at="2023-11-03T12:49:50 CST" duration-ms="5171" status="PASS">
+        <test-method signature="enterCart()[pri:13, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:50 CST" name="enterCart" finished-at="2023-11-03T16:45:56 CST" duration-ms="6246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCart -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:50 CST" name="closeReport" finished-at="2023-11-03T12:49:51 CST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:56 CST" name="closeReport" finished-at="2023-11-03T16:45:56 CST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
-        <test-method is-config="true" signature="returnToMainMenu()[pri:0, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:51 CST" name="returnToMainMenu" finished-at="2023-11-03T12:49:51 CST" duration-ms="694" status="PASS">
+        <test-method is-config="true" signature="returnToMainMenu()[pri:0, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:56 CST" name="returnToMainMenu" finished-at="2023-11-03T16:45:57 CST" duration-ms="674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnToMainMenu -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:midtermProjMain.Main@557caf28]" started-at="2023-11-03T12:49:51 CST" name="tearDown" finished-at="2023-11-03T12:49:52 CST" duration-ms="374" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:midtermProjMain.Main@408d971b]" started-at="2023-11-03T16:45:57 CST" name="tearDown" finished-at="2023-11-03T16:45:57 CST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
